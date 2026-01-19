@@ -1,0 +1,31 @@
+---
+layout:     post
+title:      "I won a math competition??"
+subtitle:   "A surprise, but also the start of impostor syndrome???"
+date:       2025-12-24 12:00:00
+author:     "lLukii"
+header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
+catalog: true
+tags: 
+    - Math
+    - Life
+---
+
+> It feels a little surreal...
+
+I didn't even plan on doing this contest originally since I had a piano recital the same day. Sure, that took place in the evening, but I wasn't feeling like doing a whole ass math contest right before Christmas. Eventually, I reluctantly signed up to represent the math team, expecting to get absolutely smoked like what happened three years ago when I randomly tried Mathcounts.
+The contest somewhat resembled the ARML: there was a power round, team round, individual round, and relay round. If you aren't familiar with these terms, can check out the specific details [here](https://dmi.stuy.edu/info). For now, I'll detail my own experience.
+
+The contest began with the team round, consisting of ten questions, which our team got absolutely cooked on. I solved 2 and 4 pretty quickly, but proceeded to get stuck on question 3 because I forgot how to do mods. I then tried 7, which I also failed probably because I misinterpreted something, and spent the rest of the round fumbling on 10. My teammates handled the other questions, but our performance wasn't great in general. We only got four questions right, and ranked 15th out of approximatley 50 teams.
+
+Next up was the power round, which centered around Turing Machines this year. I spent around 15 minutes trying to understand the background information due to how crappy the description was, but most of the questions were actually quite simple once I understood it. Unfortunately, we didn't get through everything, so our performance also wasn't great.
+
+However, the afternoon sessions are where everything changed. Though I had a history of clowning math questions due to nerves or other mental roadblocks, my brain was somehow working during the individual round. Suprisingly, almost every approach that I tried lead to the correct answer! Admittedly, the questions here weren't as hard as I expected, but I was able to answer them with surprising speed and accuracy. My teammates also did really well, and we crushed the leaderboard, comfortably getting first place in the individual round. The relay round was my least favorite because of how chaotic it was, but we still managed to do quite well. Like the individual round, our team breezed through the questions with surprising speed and accuracy, finishing 2nd on the team leaderboard.
+
+At this point, I was really tired and ready to go. Just as I finished putting my coat on, though, my teammate called my name, telling me that I qualified for the tiebreakers. I'm sorry, WHAT?? I mean, I knew I did well in the individual round, but there's no way I placed among the top 7 individuals. Not when there's math kids from Bronx Science, Trinity, you name it. Bro, I'm just a random kid who likes STEM from a very non-STEM oriented high school that fumbled the AMC for two years straight. "Alright, then", I said to myself. I guess it's worth a shot. There's no doubt I'm getting eliminated first.
+
+The organizers handed me the first tiebreaker question, some gcd / lcm problem, and I spent probably 6 minutes doing some random brute force. "Whatever. I'm probably the only guy who didn't solve it so just get me out of here. I have a recital for god sake. I'm happy with my performance already". It turns out, though, that no one got the question right, so they handed everyone another slip of paper. This time, it was 3D geo. I thought I was fighting a losing battle until I randomly decided to take a 2D cross section. From there, I spent about 6 minutes doing some cursed algebra and ended up with a reasonable answer? "Um... seems reasonable?", I thought, so I reluctantly handed my answer slip in. A few moments later, the organizers made an announcement: "Yichen Jiao, you can return to your seat". "Well, I probably got eliminated. That was a good fight, though. My mind is at rest."
+
+I decided to stay for the awards ceremony just to see how everyone did. I was quite happy that three of my teammates placed in the top 15. For some reason, though, my name didn't show up on 7th place, or 6th place. "Huh? I got eliminated first, so isn't that where I should be? Wait, th-there's no way..." The slideshow turned to the individual winner, and there it was: My name, Yichen Jiao, centered on the big auditorium screen. What the actual F-? I walked onto the stage, grabbed a medal, trophy and a few sheets of paper, confused by what had just happened to me. You're telling me that I, Lucas Jiao, managed to outscore every other person from some of the sweatiest high schools in New York? I'm just your average Joe among these people I-I, what????
+
+It's still kind of crazy to think about this win considering my historically bad performance in math contests. In retrospect, though, I think there are a lot of things I learned from this experience in general. First off, winning this competition does not mean in any way that I'm cracked at math or objectively better than anyone else present. Luck certainly played a role, so a different set of tiebreaker or individual round questions could've completely smoked me. Combining this contest with my mindset while taking the AMC, I also firmly believe that we should pursue math, or any discipline, not for the sake of results but for the sake of learning. It's easy to chase after accolades, but doing so creates stress that distracts you from genuinely learning math. You easily panic under time pressure, and struggle to adapt to new ways of problem solving in fear of not knowing how to do something. In fact, I think the biggest reason why I did well on this contest was because I didn't give a crap. Not worrying about results helped me focus on math more, in turn leading to a better individual round performance. That being said, I doubt I'll return to math competitions full-time, especially after whatever the hell the 2026 AIME cutoffs are, but I think this experience/reflection reinforces a healthier mentality that me and you, the reader, should aim to follow.
