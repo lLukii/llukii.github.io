@@ -24,14 +24,15 @@ Time Complexity: $O(N)$
 Perhaps my favorite Gold question so far. A little involved, but super rewarding to solve. We can tackle this problem in two parts: how to create $K$ syllables with some rhyme, and associating each $e_i$ with some rhyme class.
 
 For the first part, notice how we can choose each word as many times as needed, and the order that we pick two words matters. We can compute this easily using Knapsack DP. Let $dp[k]$ denote the number of ways to create a poem with $k$ total syllables. The transition is as follows:
-$$dp[k]=\sum_{i=1}^{N}dp[k-{s_i}]$$
+$dp[k]=\sum_{i=1}^{N}dp[k-{s_i}]$
+
 To find the number of ways that a poem ends in a specific rhyme class $c$, we fix the last word to have that rhyme. We can simply sum over all values of $dp[k-s]$, which we can call $f(c)$, where the word corresponding to $s$ has rhyme $c$. 
 
 Part 2 is a little tricky, but very interesting. First, it's worth noting that every letter in the input can correspond to any rhyme class. Thus, the answer to this problem is essentially the sum of all possible letter combinations that the rhyme classes can take on. For the sake of brevity, consider a toy example with letters $A,B$ that appear $c(A),c(B)$ times, and rhyme classes $1$ and $2$. The number of arrangements is thus
-$$f(1)^{c(A)}f(2)^{c(B)}+f(1)^{c(B)}f(2)^{c(A)}+$$
-$$f(2)^{c(B)}f(2)^{c(B)}+f(1)^{c(A)}f(1)^{c(A)}$$
+$f(1)^{c(A)}f(2)^{c(B)}+f(1)^{c(B)}f(2)^{c(A)}+f(2)^{c(B)}f(2)^{c(B)}+f(1)^{c(A)}f(1)^{c(A)}$
+
 This expression doesn't scale nicely for large values of $M$, so we can factor
-$$(f(1)^{c(A)}+f(2)^{c(A)})(f(1)^{c(A)}+f(2)^{c(B)})$$
+$(f(1)^{c(A)}+f(2)^{c(A)})(f(1)^{c(A)}+f(2)^{c(B)})$
 
 The number of terms to compute now is much more reasonable. We can compute the exponents quickly using binary exponentiation, and take the answer modulo $10^9+7$.
 
