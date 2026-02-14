@@ -18,7 +18,7 @@ We are trying to get from $(x_L,y_L)$ to $(x_B,y_B)$ through some series of inte
 
 This question is a little annoying implementation-wise, since the coordinates can go up to $10^9$, which warrants the need for a hashmap or smth.
 
-Time Complexity: $O(N)$ 
+Time Complexity: $\mathcal{O}(N)$ 
 
 **USACO Gold January 2019, P1 - Cow Poetry**
 Perhaps my favorite Gold question so far. A little involved, but super rewarding to solve. We can tackle this problem in two parts: how to create $K$ syllables with some rhyme, and associating each $e_i$ with some rhyme class.
@@ -36,7 +36,7 @@ $(f(1)^{c(A)}+f(2)^{c(A)})(f(1)^{c(A)}+f(2)^{c(B)})$
 
 The number of terms to compute now is much more reasonable. We can compute the exponents quickly using binary exponentiation, and take the answer modulo $10^9+7$.
 
-Time Complexity: $O(NK+NM\log M)$
+Time Complexity: $\mathcal{O}(NK+NM\log M)$
 
 
 I'll probably post something related to life in general next time. More problems coming soon!
