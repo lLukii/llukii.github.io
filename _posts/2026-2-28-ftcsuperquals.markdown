@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Alas, the drought is over"
-subtitle:   ""
-date:       2026-2-16 12:00:00
+title:      "The drought is over"
+subtitle:   "That took a while"
+date:       2026-2-28 12:00:00
 author:     "lLukii"
 header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
 catalog: true
