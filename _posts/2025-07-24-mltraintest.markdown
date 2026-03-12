@@ -2,7 +2,7 @@
 layout:     post
 title:      "An interesting relationship between training and testing error"
 subtitle:   ""
-date:       2026-1-19 12:00:00
+date:       2025-7-24 12:00:00
 author:     "lLukii"
 header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
 catalog: true
