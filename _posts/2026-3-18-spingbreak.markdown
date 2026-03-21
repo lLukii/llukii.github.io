@@ -33,10 +33,15 @@ I guess I'll also share some songs I've enjoyed recently:
 
 
 [*New World Symphony, Antonín Dvořák*](https://www.youtube.com/watch?v=uOmaQSqnPfw) - I actually never listened to this piece in its entirety until now. It's a great symphony, imo, and very clear that Dvorak was inspired by indigenous music when writing it.
+
 [*The Phantom of the Opera, Andrew Lloyd Webber*](https://www.youtube.com/watch?v=EGb4hj-EXt0) - Revisited PoTA not too long ago, and GODDAMN, this soundtrack is a banger. I can see why it was so popular when it premiered in the 1980s.
+
 [*The Perfect Pair, Beabadobee*](https://www.youtube.com/watch?v=3WpdCZC9q6w)
+
 [*Looping Through the Rooms, Rusino (ft. Hastune Miku)*](https://www.youtube.com/watch?v=icBDYkfxpMs&list=RDicBDYkfxpMs&start_radio=1) - Finally, a break from generic Miku x Teto songs! I love the Uncanny Backrooms theme.
+
 [*Speed of Light, DJ Okawari*](https://www.youtube.com/watch?v=L2LB12IxLDU) - Not to be confused with the song by Dimrain47 (epsecially if you're a gd player)
+
 [*Kimino Shiranai Monogatari, Ryo (Supercell)*](https://www.youtube.com/watch?v=iSxeHWSpN98) - I listened to this song before going to bed for Robotics Championships, though I won't blame it for my poor performance cuz I like it way too much :p
 <br>
 
