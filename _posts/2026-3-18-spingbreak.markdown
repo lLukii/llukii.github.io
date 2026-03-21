@@ -19,9 +19,6 @@ I've always hated writing in high school, but these blogs have been surprisingly
 With that aside, *INHALES*, I'll dump a bunch of thoughts on my mind going into spring break.
 
 
-This week, I learned a hard lesson that not paying attention in my AP Physics class was a terrible idea. With a unit test
-
-
 Aside from school, there are a few things on my bucket list right now:
 * **Piano** - I started practicing again! For the first time since the start of junior year, I didn't get railed during piano class :D It still sucks that I have to do juries on 4/25 and a recital in early April (date TBD), but my practice schedule right now should make them both plausible.
 * **Scifair / Publications??** - I've been thinking of targeting some IEEE journals, but I'm not exactly sure yet. Another plan is to submit my paper to the S.T. Yau science competition, but it's also ridiculously competitive so idk. It might be easier to submit my paper to Biology instead of CS, since projects in the latter tend to be *very* technical.
