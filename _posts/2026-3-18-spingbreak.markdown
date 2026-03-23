@@ -2,7 +2,7 @@
 layout:     post
 title:      "Spring break & more thoughts"
 subtitle:   "Wow..."
-date:       2026-3-15 12:00:00
+date:       2026-3-18 12:00:00
 author:     "lLukii"
 header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
 catalog: true
