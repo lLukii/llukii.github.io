@@ -16,7 +16,7 @@ After (barely) promoting to Gold a year ago, I decided to try my hands at USACO 
 **USACO Gold December 2016, P3 - Lasers and Mirrors**
 We are trying to get from $(x_L,y_L)$ to $(x_B,y_B)$ through some series of intermediate points, which suggests that we can treat this as a graph problem. Construct a graph where mirrors sharing a common y-coordinate while travelling horizontally or a common x-coordinate while travelling vertically are adjacent to our current position. It suffices to run BFS, alternating our search direction each time, and finding the shortest path to any point containing $(x,y)$ where $x=x_b$ or $y=y_b$.
 
-This question is a little annoying implementation-wise, since the coordinates can go up to $10^9$, which warrants the need for a hashmap or smth.
+This question is a little annoying implementation-wise, since the coordinates can go up to $10^9$, so you need a hashmap to prevent memory issues. 
 
 Time Complexity: $\mathcal{O}(N)$ 
 

@@ -10,8 +10,8 @@ tags:
     - Life
     - School
     - Computer Science
-    - Math
-    - Anime & Manga
+    - Anime
+    - Piano
 ---
 I've always hated writing in high school, but these blogs have been surprisingly fun to write; I feel like I've learned a lot about myself from both writing my own blogs and reading others' posts.
 
