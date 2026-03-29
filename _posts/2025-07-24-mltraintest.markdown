@@ -56,9 +56,9 @@ By lemma 2, $=\sum_{i=1}^NV[y_i]+V[\hat y_i]-2Cov(y_i, \hat y_i)+(E[y_i]-E[\hat 
     $=\sum_{i=1}^NV[y_i]+V[\hat y_i]+(E[y_i]-E[\hat y_i])^2$
 
 Likewise,
-    <!-- $E[\hat R_{test}]=E[\sum_{i=1}^N(y'_i - \hat y_i)^2]$
+    $E[\hat R_{test}]=E[\sum_{i=1}^N(y'_i - \hat y_i)^2]$
     $=\sum_{i=1}^NE[(y'_i - \hat y_i)^2]$
-    $=\sum_{i=1}^NV[y'_i]+V[\hat y_i]-2Cov(y'_i, \hat y_i)+(E[y'_i]-E[\hat y_i])^2$ -->
+    $=\sum_{i=1}^NV[y'_i]+V[\hat y_i]-2Cov(y'_i, \hat y_i)+(E[y'_i]-E[\hat y_i])^2$
 
-By lemma 1, $2Cov(y'_i, \hat y_i)=0$, so this term cancels out. Since $E[y_i]=E[y'_i]$ and $V[y_i]=V[y'_i]$, we can substitute these into $R_{test}$ as well. Doing so gives us the same expansion as $
+By lemma 1, $ 2Cov(y'_i, \hat y_i)=0$, so this term cancels out. Since $E[y_i]=E[y'_i]$ and $V[y_i]=V[y'_i]$, we can substitute these into $R_{test}$ as well. Doing so gives us the same expansion as $
       E[\hat R_{train}]+2\sum_{i=1}^NCov(y_i, \hat y_i)$, proving (1.2) and therefore (1.1). 
