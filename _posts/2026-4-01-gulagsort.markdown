@@ -17,10 +17,10 @@ Consider this list of integers:
 $$2,5,4,7,9,3,10$$
 
 
-When Stalin Sort reaches the 3rd element, the largest previous element it found was $5$. However, since the 3rd element is $4$, which is less than $5$, it is erased from the list of numbers. However, it will include the 4th element $7$ since it is greater than $5$. In the figure below, numbers colored blue are included in the final sequence, while the ones in red are purged.
+When Stalin Sort reaches the 3rd element, the largest previous element it found was $5$. However, since the 3rd element is $4$, which is less than $5$, it is erased from the list of numbers. However, it will include the 4th element $7$ since it is greater than $5$. In the figure below, the underlined numbers are kept. 
 
 
-$$\blue{2},\blue{5},\red{4},\blue{7},\blue{9},\red{3},\blue{10}$$
+$$\underline{2},\underline{5},4,\underline{7},\underline{9},3,\underline{10}$$
 
 
 This algorithm runs in $\mathcal{O}(n)$ time, and a basic C++ implementation would look something like this:
@@ -146,10 +146,9 @@ int main(){
            p[i] = idx[l-1];
        }
    }
-   int ans = 0, start_idx = 0;
+   int start_idx = 0;
    for(int i = 1; i <= n; i++){
        if(dp[i] != INT32_MAX){
-           ans = i;
            start_idx = idx[i];
        }
    }
