@@ -25,6 +25,7 @@ $$\underline{2},\underline{5},4,\underline{7},\underline{9},3,\underline{10}$$
 
 This algorithm runs in $\mathcal{O}(n)$ time, and a basic C++ implementation would look something like this:
 ```cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -73,6 +74,7 @@ Phew! That was a lot of work for more worker representation huh? Here's a C++ im
 
 
 ```cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -125,6 +127,7 @@ To restore the subsequence, we can use the same $p$ array as before and also mai
 
 
 ```cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
