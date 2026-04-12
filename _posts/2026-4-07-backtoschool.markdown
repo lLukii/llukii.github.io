@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "It ain't over till it over"
-subtite:    "Home stretch of junior yr..."
+subtitle:    "Home stretch of junior yr..."
 date:       2026-4-07 12:00:00
 author:     "lLukii"
 header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
