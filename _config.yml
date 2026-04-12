@@ -1,8 +1,8 @@
 # Site settings
-title: The Procrastination Masterclass
-SEOTitle: The Procrastination Masterclass
+title: The Intermediate Value Theorem
+SEOTitle: The Intermediate Value Theorem
 email: lucas.jiao.ny@gmail.com
-description: "Thinking about life... oh wait I have an APUSH assignment due tmr"
+description: "You should enjoy the little detours to the fullest. Because that's where you'll find the things more important than what you want."
 keyword: ""
 url: "http://llukii.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -66,7 +66,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "I'm a High School junior just living life, occasionally thinking about things."
+sidebar-about-description: "I am whoever you want me to be"
 sidebar-avatar: https://avatars.githubusercontent.com/u/105329087?v=4      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
