@@ -36,11 +36,13 @@ I also started working on robotics offseason, albeit at a very leisure pace. So 
 Alright, enough of me waffling about academics. I was actually rather unproductive during spring break, but in turn stumbled across some absolute internet gems. 
 
 **Music**
+
 [Connect The World, Nanatsukaze](https://www.youtube.com/watch?v=M-IayQIR0XA) - I'm suprised this song doesn't have more views. The music video has to be the cutest thing I've seen all month. 
 
 [It Ain't Over Till It's Over, Lenny Kravitz](https://www.youtube.com/watch?v=TmENMZFUU_0) - If life had an anthem, this would be the perfect song. Indeed, you never know what you'll end up becoming until it's over. Before then, keep working at it! 
 
 **Movies**
+
 *A Silent Voice (2016)* - Holy shit, this movie is amazing. Having gone through two years of pretty bad anxiety myself, this film *really* spoke to me. The characters feel incredibly real, and I found myself empathizing with both Shoko and Shoya. In fact, I even attempted to write my own analysis for this movie on my blog, but I've yet to finish it because I feel like my writing doesn't do this movie justice. Nonetheless, I highly recommend it. 
 
 *Wolf Children (2012)* - This is a shockingly poignant coming-of-age story that illustrates the power of maternal love. I lowkey teared up realizing how much the mom went through for her two children. Living with my mom alone for the past three years (dad is in China for work reasons), I feel like I often take for granted how much she sacraficed. This movie is a firm reminder that I should probably give her a hug... love you mom 😘
