@@ -162,5 +162,4 @@ int main(){
 }
 ```
 
-
 Actually, another more intuitive way of doing $\mathcal{O}(n\log n)$ LIS (colloquially Gulag Sort) is using the original $dp$ formulation, but optimizing the inner loop with a Point-Update-Range-Query data structure like a Binary Indexed Tree. However, this approach is also much harder to implement (and has difficulty adjusting to larger values), so I won't cover it as thoroughly.
