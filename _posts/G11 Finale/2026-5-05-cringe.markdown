@@ -1,0 +1,57 @@
+---
+layout:     post
+title:      "FTC/FRC Worlds Recap"
+subtitle:   "Who let bro in??"
+date:       2026-5-09 12:00:00
+author:     "lLukii"
+header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
+catalog: true
+tags: 
+    - Robotics
+--- 
+> *sighs* this was supposed to be done much earlier. 
+
+Yep, I actually went to Worlds. This was largely thanks to FI being nominated as a FIRST Leadership Award finalist, which qualified him for Worlds, and enabled a couple of other people on my team to go. So, a recap of how it went:
+
+
+**April 29th:**
+I ate breakfast at the hotel and quickly made my way to George R Brown, the world championship venue. First things first, this place is *massive*. The FRC arena alone is probably bigger than most shopping malls, and it took me at least 5 minutes to get from one end of the convention center to the other. It's pretty cool that Worlds has a lot more than just tournaments, contrary to regional qualifiers/championships; there were conferences covering everything from software to networking, food stands with all kinds of food, and even stands from companies such as Boeing and NASA.
+
+
+I spent my morning attending a few conferences and proceeded to get stuck in line for half an hour for a Starbucks order (Yeah... *ggreattt use of my time*). After grabbing lunch, I made my way to the 3rd floor and checked out some FTC pits with JW. Looking at their posters, it's immediately clear why these teams are in worlds: they had incredibly optimized robot designs, insane software techniques (neural networks and FUCKING PARTIAL DIFF EQ SOLVERS??), and prolific outreach. It's even more surreal that I got to talk to a lot of teams I've seen online—Up-A-Creek (last year's winner), AiCitizens, Seattle Solvers, etc—in person and ask them questions. I was also really suprised me how chill everyone was. Lowkey I thought these teams would gatekeep everything being so strong, but everyone I've talked to was more than happy to answer all my stupid software questions (~~or putting up with JW~~).
+
+
+I should also mention that we offered to help scout for another FRC team, so we ended the day spending about an hour learning to collect data from random practice matches. Ngl, scouting for FRC is *painful*, especially this year, when teams are shooting like 10 balls per second. Honestly, idk how you expect me to track every single shot a robot makes and sustain that level of focus for an hour.
+
+
+I was really tired upon returning to the hotel and barely did any work, so I took a practice APUSH MCQ with... questionable accuracy and headed straight to bed. 
+
+
+**April 30th:**
+I headed straight to George R Brown and grabbed breakfast at a random smoothie place. They sold these smoothie bowl things that were pretty tasty, albeit a little cold. After that, I made my way to Daly, watched a few FRC matches, and attended a few conferences in the morning. The software conferences were disappointing to say the least. I feel like none of the topics they covered were super informative, as they were generally concepts that are pretty well-established among high-level teams (e.g., I expect every programmer at Worlds to know how to tune a PIDF controller). Thanks to my inner conscience, I also signed up for a conference that was targeted towards networking for introverts, but they just made me talk to a few people for 30 minutes. I don't know what the organizers were expecting; you can't expect introverts to become expert communicators in a single hour.
+
+
+After grabbing lunch, I met AC and FI, who complained about their scouting shift in the morning. Apparently, they scouted for two whole hours in replacement of the team's *own* scouters, only for their data to be recycled. Understandably, they told EJ about this, after which he met up with the team to change scouting to something completely optional for us. (*Phew!* I did not want to sit there for two hours number crunching...)
+
+
+With this priority out of the way, I spent the afternoon looking through some of the career fairs, trying food stands, and revisiting the FTC Pits. I don't remember anything super notable, aside from maybe collecting some more merch and talking to more teams?? Afterwards, I headed back to the hotel and did random stuff lol :p
+
+
+**May 1st:**
+Not much to say here since it was more qualification matches. I stayed in my hotel room for the whole day to catch up with schoolwork and ordered some Pho to take a break from Chick-Fil-A lunches.
+
+
+**May 2nd:**
+This was the final day of worlds, so I spent the whole day watching playoff matches—FTC in the morning, and Einstein playoffs in the afternoon with the rest of Ultro.
+
+
+The latter was probably one of the coolest experiences of my life: the stands were filled to the brim with people, and there were some really cool ceremonies and announcements in between matches (e.g., the way they introduced the teams was almost like Olympic opening ceremonies). It was kinda surreal sitting in the audience and seeing the sheer number of people who were cheering for robotics. Einstein playoffs felt like taking the hype and anticipation surrounding, say, the NBA finals and bringing it to an appealing activity for nerdy STEM teenagers across the world. For me, it's the best of both worlds, and that's what I love so much about FIRST robotics.
+
+
+I don't remember all the FRC playoff matches, but I recall a few of them being insanely close (e.g., a mere three-point difference between being eliminated/advancing). In the end, Daly took the win, and their alliance captain, High Tide, took home their second FRC World Championship victory and 6th consecutive Einstein qualification. Yeah, honestly crazy how dominant some teams can be.
+
+
+After playoffs, our whole team went to a nearby mall to grab some food and ice cream. I talked to AA for a while on a nice rooftop and headed back to the hotel to pack.
+
+
+Overall, I had a blast at Worlds, meeting lots of new people, and experiencing the pinnacle of high school robotics. Hopefully, I can be back next year to *actually* compete. Alr, that's about it for now. Peace out ✌️
