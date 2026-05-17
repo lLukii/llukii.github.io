@@ -1,0 +1,83 @@
+---
+layout:     post
+title:      "JavaTorch"
+subtitle:   "Machine Learning the wrong way"
+date:       2026-5-09 12:00:00
+author:     "lLukii"
+header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
+catalog: true
+tags: 
+    - Computer Science
+--- 
+This is actually a long overdue post, since I wrote most of the code for this project during spring break. Anyways, it was a pretty cool learning experience that made me understand ML from the ground up a lot better, so ig I'll still post about it. 
+
+In a nutshell, JavaTorch is a mini deep learning library modeled off of PyTorch—the current industry standard—written entirely in vanilla Java. After getting much better at Java thanks to robotics, I began to realize that PyTorch followed a pretty object-oriented design, so I thought it'd make sense to incorperate its modularity into Java. Up until that point, I was pretty murky about the exact details of ML frameworks, so I also wanted to use this project to somehow strengthen my understanding. 
+
+The core data type in JavaTorch is `Value`, a wrapper for `double` that supports gradient operations, inspired largely by Andrej Karpathy's [MicroGPT](https://karpathy.github.io/2026/02/12/microgpt/) implementation. `Value` constructs a computational graph whenever operations (e.g., addition and multiplication) are performed. More specifically, it stores information about the acutual number it holds, adjacent Values in the graph, and local gradients. By accumulating derivatives and traversing through the graph from the loss value, this setup is a suprisingly simple way of performing backpropagation, the process that Neural Networks are trained from. 
+
+Take this example: 
+```java
+import core.Value; 
+
+public class Main{
+    public static void main(String[] args){
+        Value a = new Value(1.0);
+        Value b = new Value(2.0);
+        Value c = a.add(b); 
+        Value d = new Value(3.0);
+        Value e = d.mul(c);
+        e.backward();
+        System.out.println(a.getGrad());
+        System.out.println(b.getGrad());
+    }
+}
+```
+
+When you add `b` to `a` and define `c`, it's instantiated with `a` and `b` as adjacent Values and creates local gradients as needed; the same thing happens when multiplying `c` and `d`. When `.backward()` is called, you're essentially running DFS on a DAG from node `e` and storing gradients as you go along. Here's a simple visualization: 
+
+![alt text](JTorch/graph.png)
+
+It turns out that this Value-based approach is much nicer to handle than relying solely on matrices; gradient operations are nasty with them, and you wouldn't have that much flexibility in manipulating individual parameters (e.g. in optimizers). 
+
+Nonetheless, also created a `Matrix` class, which is just a 2D array of `Value` with support for matrix operations like multiplication and transposition. ML uses linear algebra all the time, so this was a no-brainer to make. As its name suggests, `Parameter` is an extension of `Matrix` found in neural networks that is updated during the backward pass. 
+
+The neural network building block in JavaTorch is a module. Like in PyTorch, every neural network you make is a subset of a module, inherited from the `ModuleBase` class. I won't go over every module I made, but there are two important details to keep in mind: the model is processed in the required `forward()` method, and it's essential that you declare `addRequirements()` in the constructor. Here's a basic example:
+
+```java
+import core.Matrix;
+import nn.Functional;
+import nn.module.Linear;
+import nn.module.ModuleBase;
+import nn.module.ReLU;
+
+public class Model extends ModuleBase{
+    private Linear linear1, linear2; 
+    private ReLU relu; 
+
+    public Model(int inputSize, int hiddenSize, int outputSize){
+        linear1 = new Linear(inputSize, hiddenSize);
+        relu = new ReLU();
+        linear2 = new Linear(hiddenSize, outputSize);
+
+        addRequirements();
+    }
+
+    public Matrix forward(Matrix input){
+        return Functional.softmax(linear2.forward(
+            relu.forward(linear1.forward(input))));
+    }
+}
+```
+
+You might be wondering why `addRequirements()` is needed here. Essentially, it stores the module's parameters and sub-modules, which organizes the neural network in a hierarchical way. I adopted this structure so I could save the model in a folder by recursively creating folders for each module and saving the parameters in them. After all, what's the point of training a neural network without using it later?
+
+![alt text](JTorch/Screenshot%202026-05-17%20at%204.29.44 PM.png)
+
+I also added some features like optimizers (Adam and SGD) and DataLoaders. These are pretty standard tools in PyTorch, so I won't cover them super thoroughly. I trained a simple multi-layer perceptron on Fashion MNIST, and it achieved a solid testing accuracy of around 85%. Unfortuneately, the memory usage is terrible, around 2 GB per run. It's Java, though, so I guess that's to be expected... Anyways, here are some screenshots
+
+![alt text](JTorch/image.png)
+![alt text](JTorch/training.png)
+
+Needless to say, this project is still pretty WIP, and I wouldn't put it on my resume or anything until I flesh it out a lot more. Granted, I haven't worked on it because of school work and other things in life. If you're curious about the exact implementation, check out the GitHub repo [here](https://github.com/lLukii/JavaTorch). 
+
+Oh yeah, obligatory mention about APs. They went fine. APUSH FRQs were shockingly easy (manifest destiny for leq contextualization?? holy free points), and CSA's difficulty was borderline insulting (I took a dump during the MCQs and had 50 minutes to check my work). The only exam that had somewhat tricky questions was AP Physics C, although that was only because of the first two (though rather evil) FRQs. The curves will probably be really scuffed, but I still think I have a decent-ish chance at all 5s??
