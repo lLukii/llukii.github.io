@@ -35,7 +35,7 @@ public class Main{
 
 When you add `b` to `a` and define `c`, it's instantiated with `a` and `b` as adjacent Values and creates local gradients as needed; the same thing happens when multiplying `c` and `d`. When `.backward()` is called, you're essentially running DFS on a DAG from node `e` and storing gradients as you go along. Here's a simple visualization: 
 
-![alt text](/_posts/G11%20Finale/JTorch/graph.png)
+![alt text](/img/in-post/graph.png)
 
 It turns out that this Value-based approach is much nicer to handle than relying solely on matrices; gradient operations are nasty with them, and you wouldn't have that much flexibility in manipulating individual parameters (e.g. in optimizers). 
 
@@ -71,12 +71,12 @@ public class Model extends ModuleBase{
 
 You might be wondering why `addRequirements()` is needed here. Essentially, it stores the module's parameters and sub-modules, which organizes the neural network in a hierarchical way. I adopted this structure so I could save the model in a folder by recursively creating folders for each module and saving the parameters in them. After all, what's the point of training a neural network without using it later?
 
-![alt text](/_posts/G11%20Finale/JTorch/Screenshot%202026-05-17%20at%204.29.44 PM.png)
+![alt text](/img/in-post/Screenshot%202026-05-17%20at%204.29.44 PM.png)
 
 I also added some features like optimizers (Adam and SGD) and DataLoaders. These are pretty standard tools in PyTorch, so I won't cover them super thoroughly. I trained a simple multi-layer perceptron on Fashion MNIST, and it achieved a solid testing accuracy of around 85%. Unfortuneately, the memory usage is terrible, around 2 GB per run. It's Java, though, so I guess that's to be expected... Anyways, here are some screenshots
 
-![alt text](/_posts/G11%20Finale/JTorch/image.png)
-![alt text](/_posts/G11%20Finale/JTorch/training.png)
+![alt text](/img/in-post/image.png)
+![alt text](/img/in-post/training.png)
 
 Needless to say, this project is still pretty WIP, and I wouldn't put it on my resume or anything until I flesh it out a lot more. Granted, I haven't worked on it because of school work and other things in life. If you're curious about the exact implementation, check out the GitHub repo [here](https://github.com/lLukii/JavaTorch). 
 
