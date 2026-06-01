@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "Western Edge + A tribute to robotics"
+subtitle:   "Beyond my wildest dreams"
+date:       2026-5-31 12:00:00
+author:     "lLukii"
+header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
+catalog: true
+tags: 
+    - Robotics
+--- 
+**Western Edge Results:** 41st place quals, think award winner. 
+
+There are a myriad of reasons I can give for why our robot underperformed so much, although I think it mostly had to do with timing. For starters, I didn't touch the robot at all until the week after APs, which only gave me a mere two weeks to refine the robot. Personally, I think that would've been enough time, but the bombshell came a week later, when hardware overambitiously replaced both the side plates and spindexer design. The latter took three entire days, and the spindexer couldn't outtake a single ball reliably after I tirelessly tested for a whole day. By the time we reverted the changes, we were around five days behind schedule. Sadly, even after switching to the original spindexer, I didn't foresee the sheer impact on software that all the mechanical changes caused. Critically, they caused massive changes to odometry, which I couldn't debug in time for qualification matches, even after re-tuning pedropathing multiple times and extensively stress testing. As a result, we had to disable several mechanisms and played with nothing but the most rudimentary autos. Needless to say, we got demolished by nearly all the teams, who were much better prepared and organized than us coming into the event. In the end, we went 2-8 and ended up as one of the lowest-ranked teams. 
+
+It's really sad to think that, like NYC championships, much of this could've been avoided if we didn't overshoot as much and focused on refining what we already had. But, now that the season is officially over, I don't think it's fair to look back with such a pessimistic view. On the bright side, we somehow managed to win Think Award at a global event, which clearly shows that BC's portfolio and outreach are no joke. Sure, it sucks that we didn't do well at Western Edge, but the fact that we made it to a premier event at all is something I'm forever proud of. Indeed, there are teams out there that have like 5-6 consecutive worlds qualifications, but they usually come from places with historically strong technical backgrounds and lots of connections; relative to Ultro's previous seasons, I couldn't ask for more. Just over a year ago, I was a clueless member on the team who felt lucky just to get assigned a task. When the season started this year, my goal was simply to program a working robot by our competition and hopefully make it to NYC championships. But programming a robot that nearly won superquals, ranked among the top 10 out of 250 teams in the city, and competed across the country in California was simply beyond my wildest dreams. No matter how Premier turned out, it's safe to say that Ultro's priorities have shifted: the goal is now to compete, not to survive. 
+
+Finally, to any team member reading this reflection, thank you. Through your dedication, you made the team's spirit and hard work shine. Through your patience, you helped us overcome unexpected events and technical difficulties. Through your kindness, you pushed me through my lowest moments and taught me to become a better team leader. Though there's still work to be done, I'm highly optimistic about what next year's season has to bring. We'll continue to work hard, cherish the moments a new auto works, and take notes whenever the robot disconnects on the playing field. Thank you all for this unforgettable season, and we'll knock next year out of the park. 
+
+~~ TheRealLukii out
