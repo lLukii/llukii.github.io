@@ -1,0 +1,14 @@
+---
+layout:     post
+title:      "Two sides of the same coin"
+subtitle:   "An irritating conflict"
+date:       2026-7-24 12:00:00
+author:     "lLukii"
+header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
+catalog: true
+tags: 
+    - Life
+---
+One of the questions I get asked a lot by others is how on earth I've been juggling robotics while also going to MSM every saturday. The truth is, it's been pretty hard to balance the two. But, it's not only because of their timing, but because of how distinct these fields really are. 
+
+Of course, robotics and classical piano are both *massive* time commitments, so it isn't uncommon for me to run into scheduling conflicts. I've sent god knows how many absence forms to my piano teacher to catch tournaments and build days, and were several days where I needed to skip build days to prep for a recital. Nonetheless, I think the biggest underlying problem is how different these areas are: virtually no one I know at MSM does robotics simultaneously, and I don't know anyone else on Ultro or the wider FIRST community that does classical piano. Of course, most people are involved in more than one EC, but many activities translate well with one another. For instance, many things I learned in FIRST were indespensable for when I worked with robotic learning and RL this summer. You don't need knowledge of harmonic modulations or how to do glissandos to design a championship-level auto. Conversely, 
