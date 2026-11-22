@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Stream of conciousness -- Part 1"
-subtitle:   "D-Day"
+title:      "Another bridge I have crossed"
 date:       2026-11-01 12:00:00
 author:     "lLukii"
 header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
 catalog: true
 tags: 
     - Life
+    - College Apps
 --- 
 *Success! You have submitted your common application to Princeton University!*
 

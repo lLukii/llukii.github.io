@@ -8,6 +8,8 @@ header-img: "img/dark-mode-otherworld-wallpaper-v0-utqp151a9e7b1.png"
 catalog: true
 tags: 
     - Life
+    - Music
+    - Robotics
 ---
 One of the questions I get asked a lot by others is how on earth I've been juggling robotics while also going to MSM every saturday. The truth is, it's been pretty hard to balance the two activities, not only because of their timing, but because of how distinct these fields really are. 
 
